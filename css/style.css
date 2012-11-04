@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+body {
+	background-color: #e6ddbe;
+	line-height: 1.6;
+	font-size: 0.875em;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;f
+	color:#000000;
+}
+
+h1 {
+	font-size: 2.0em;
+}
+
+a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* ラッパー */
+#wrapper {
+	background-color: #ffffff;
+	width: 960px;
+	margin: 0 auto;
+	border-left: 0px solid #8e8979;
+	border-right: 0px solid #8e8979;
+}
+
+/* タイトル */
+#title {
+	border-bottom: 1px solid #8e8979;
+	padding: 15px 0 0 15px;
+}
+
+#poweredby {
+	font-size: 0.5em;
+}
+
+/* コンテンツ */
+#contents {
+	padding: 15px 80px 0 15px;
+}
+
+#contents span.title {
+	border-top: 1px solid #e6bd32;
+	border-right: 3px solid #e6bd32;
+	border-bottom: 1px solid #e6bd32;
+	border-left: 10px solid #e6bd32;
+	display: block;
+	font-size: 1.5em;
+	margin: 0 0 10px 0;
+	padding: 5px 0 5px 10px;
+	width: 40em;
+}
+
+#contents .image {
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#contents .description {
+	text-indent: 1em;
+}
+
+#contents .data {
+	clear: both;
+	text-align: right;
+}
+
+#contents .comment {
+	text-align: right;
+}
+
+#contents .comment a {
+	color: #000000;
+}
+
+/* フォーム */
+#form {
+	padding: 15px 0 15px 15px;
+	border-top: 1px solid #8e8979;
+}
+
+#form h3 {
+	font-size: 1.2em;
+}
+
+#form input {
+	border: 1px solid #8e8979;
+}
+
+#form input:hover {
+	background-color: #d2d1cd;
+}
+
+#form input:focus {
+	background-color: #d2d1cd;
+}
+
+#form textarea {
+	border-top: 1px solid #8e8979;
+}
+
+#form textarea:hover {
+	background-color: #d2d1cd;
+}
+
+#form textarea:focus {
+	background-color: #d2d1cd;
+}
+
+#form dt {
+	margin: 10px 0 0 0;
+}
+
+#form input[type="submit"] {
+	background-color: #9b9b9b;
+	border: 1px solid #8e8979;
+	margin: 10px 0 0 0;
+	padding: 5px 0 5px 1em;
+	letter-spacing: 1em;
+}
+
+#form input[type="submit"]:hover {
+	background-color: #9b9b9b;
+}
+
+/* フッター */
+#footer {
+	background-color: #8e8979;
+	color: #ffffff;
+	margin: 0 auto;
+	width: 960px;
+}
+
+#footer p {
+	padding: 15px 15px 10px 15px;
+}
+
+.map {
+	float: right;
+	padding: 15px 15px 0 15px;
+}
+
+.map p {
+	text-align: center;
+}
+
+#footercontents {
+	float: left;
+	padding: 30px 0 0 0;
+}
+
+#footercontents span {
+	float: left;
+}
+
+#footercontents p {
+	float: right;
+	margin: 0 0 0 30px;
+	padding: 0;
+}
+
+#footerdate {
+	float: left;
+	margin: 0 0 0 30px;
+}
+
+.copy {
+	clear: both;
+	color: #ffffff;
+	font-size: 0.875em;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 15px 5px 0;
+}
